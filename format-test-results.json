@@ -1,0 +1,58 @@
+[
+  {
+    "extension": "mp4",
+    "result": "PASS"
+  },
+  {
+    "extension": "mkv",
+    "result": "PASS"
+  },
+  {
+    "extension": "avi",
+    "result": "PASS"
+  },
+  {
+    "extension": "mov",
+    "result": "PASS"
+  },
+  {
+    "extension": "wmv",
+    "result": "PASS"
+  },
+  {
+    "extension": "flv",
+    "result": "PASS"
+  },
+  {
+    "extension": "webm",
+    "result": "PASS"
+  },
+  {
+    "extension": "mpeg",
+    "result": "PASS"
+  },
+  {
+    "extension": "mpg",
+    "result": "PASS"
+  },
+  {
+    "extension": "3gp",
+    "result": "PASS"
+  },
+  {
+    "extension": "ogv",
+    "result": "PASS"
+  },
+  {
+    "extension": "ts",
+    "result": "PASS"
+  },
+  {
+    "extension": "mts",
+    "result": "PASS"
+  },
+  {
+    "extension": "vob",
+    "result": "PASS"
+  }
+]

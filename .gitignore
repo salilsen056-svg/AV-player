@@ -1,0 +1,23 @@
+node_modules/
+dist/
+.expo/
+test-results/
+playwright-report/
+
+# Local state, generated native outputs and credentials
+.DS_Store
+**/build/
+**/.gradle/
+**/.kotlin/
+**/.cxx/
+**/local.properties
+.env
+.env.*
+!.env.example
+*.keystore
+*.jks
+*.apk
+*.aab
+*.hprof
+web/public/quality-test/
+web/public/test-audio.mp3

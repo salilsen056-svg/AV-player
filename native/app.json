@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "AV Player",
+    "slug": "av-player",
+    "version": "1.1.0",
+    "userInterfaceStyle": "dark",
+    "plugins": [
+      "react-native-vlc-media-player",
+      "expo-document-picker"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocalNetworkUsageDescription": "Play media streams from devices on your local network."
+      }
+    },
+    "android": {
+      "permissions": [
+        "android.permission.INTERNET",
+        "android.permission.INTERNET"
+      ],
+      "package": "com.anonymous.avplayer",
+      "versionCode": 2
+    },
+    "newArchEnabled": false
+  }
+}

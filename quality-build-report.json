@@ -1,0 +1,17 @@
+{
+  "version": "1.1.0",
+  "versionCode": 2,
+  "file": "AV-Player-1.1.0.apk",
+  "sizeMB": 106.8,
+  "sha256": "84e24e109c756cd03b51da08b2478eee5cf47dd627378fe560e3202aec71d80c",
+  "ABIs": [
+    "arm64-v8a",
+    "armeabi-v7a"
+  ],
+  "signature": "Verified, same certificate as v1.0.0 for upgrades",
+  "qualityUI": "All seven requested presets + Auto; only advertised HLS variants enabled",
+  "localFiles": "Original source quality only",
+  "tests": "5 quality tests passed; real browser 240p to 1080p switch retained paused position",
+  "HDR": "Metadata rules tested; actual HDR/60 fps output not tested",
+  "nativePlayback": "No connected Android device; APK compile/package verification only"
+}

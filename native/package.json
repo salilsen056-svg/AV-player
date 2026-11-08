@@ -1,0 +1,21 @@
+{
+  "name": "av-player-native",
+  "version": "1.1.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios"
+  },
+  "dependencies": {
+    "expo": "^54.0.0",
+    "react": "19.1.0",
+    "react-native": "0.81.5",
+    "expo-document-picker": "~14.0.0",
+    "expo-brightness": "~14.0.8",
+    "@react-native-community/slider": "5.0.1",
+    "react-native-vlc-media-player": "^1.0.0",
+    "react-native-svg": "15.12.1"
+  }
+}

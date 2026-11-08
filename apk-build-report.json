@@ -1,0 +1,14 @@
+{
+  "file": "AV-Player-1.0.0.apk",
+  "sizeMB": 106.7,
+  "sha256": "7d3a1c5ca4b19c6b74c3f6e9ef81c3c8fca9ed24b505b27c9fcb5966774456db",
+  "ABIs": [
+    "arm64-v8a",
+    "armeabi-v7a"
+  ],
+  "signature": "APK v2 verified",
+  "bundledJavaScript": true,
+  "nativeRuntime": "LibVLC + Hermes",
+  "deviceTest": "No Android device connected",
+  "audioTests": "MP3 browser playback and local MP3-to-AAC conversion passed"
+}
