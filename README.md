@@ -76,3 +76,7 @@ Adds offline video and MP3 checks, playback status, a 20-second startup error, R
 APK: `../AV-Player-1.1.2.apk`, versionCode 4, same development signing certificate for updates. Uses Expo Video / Android Media3 (ExoPlayer) by default to avoid entering the LibVLC playback path that was reported to close the app. LibVLC remains an explicit compatibility option for uncommon formats. Native player status/errors are forwarded to the UI and a JavaScript error boundary protects the playback screen. Native process crashes cannot be caught by a React error boundary.
 
 Play **Offline video check**, then **Audio → Offline MP3 check** before testing network streams or personal files. Actual resolution of the reported iQOO crash is not confirmed because no device or crash log was available. Default-engine format support is determined by Media3 and device codecs; broad LibVLC format support is not a guarantee for the default engine.
+
+## Android fullscreen — 1.1.3
+
+The Android Media3 player now has an explicit **Fullscreen** button below the video. It opens the existing player in landscape fullscreen with native play/pause and seeking controls; Android Back or the fullscreen exit button returns to the inline view. The same player instance retains position, volume and speed. Fullscreen is disabled for audio-only items. The optional LibVLC compatibility engine does not expose this Media3 fullscreen button. Build and package verification do not confirm runtime behavior on a physical device.
