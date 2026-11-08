@@ -1,5 +1,7 @@
 # AV Player
 
+[Download the latest Android APK](https://github.com/salilsen056-svg/AV-player/releases/latest) · [Web source](web/) · [Android source](native/)
+
 React + Video.js web player and React Native + LibVLC mobile player, inspired by the supplied VLC screenshots. Includes a custom SVG AV/play monogram.
 
 ## Run the web player
