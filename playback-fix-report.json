@@ -1,0 +1,15 @@
+{
+  "version": "1.1.1",
+  "file": "AV-Player-1.1.1.apk",
+  "sizeMB": 106.9,
+  "sha256": "74132b78b9a7e74a41cc3469308cf7200b0425b8caaeb8f74383db10abdd3993",
+  "fix": "Use URI constructor for file:// and content:// sources; raw paths retain path constructor",
+  "checks": [
+    "Native Java bytecode includes URI scheme branching",
+    "Signed APK verifies and certificate matches v1.1.0",
+    "APK ZIP integrity and offline MP4/MP3 assets verified",
+    "Retry/software decoder controls present in bundled JavaScript",
+    "5 quality tests passed"
+  ],
+  "onDevice": "Not tested: no connected iQOO device"
+}
