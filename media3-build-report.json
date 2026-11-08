@@ -1,0 +1,17 @@
+{
+  "version": "1.1.2",
+  "versionCode": 4,
+  "apk": "AV-Player-1.1.2.apk",
+  "sizeMB": 110.2,
+  "sha256": "adf211a60e4df8aaae9a727294c1b3acea39847f69f2d4cfe7bd85e23472db86",
+  "change": "Android Media3/ExoPlayer default; LibVLC compatibility playback is opt-in",
+  "validation": [
+    "Release build passed",
+    "APK signature and previous-version certificate match passed",
+    "APK ZIP integrity passed",
+    "VideoModule and ExoPlayer classes verified in DEX",
+    "Bundled MP4/MP3 offline tests verified",
+    "Five shared quality tests passed"
+  ],
+  "limitation": "No device crash log or on-device runtime test; iQOO crash resolution unconfirmed"
+}

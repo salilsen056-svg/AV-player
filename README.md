@@ -70,3 +70,9 @@ Dependencies, generated build files, local signing keys, and APK binaries are ex
 Fixes a confirmed LibVLC bridge bug: local `file://` URIs were passed to the raw-filesystem-path constructor. URI sources now use the URI constructor, while bare paths retain the path constructor. This also fixes loading temporary local HLS manifests. The patch runs automatically after dependency installation and forwards native setup exceptions to the player UI.
 
 Adds offline video and MP3 checks, playback status, a 20-second startup error, Retry, and a software/hardware decoder toggle. Use the offline checks to separate device decoder problems from network or source-file problems. Signature and build checks do not substitute for an on-device test.
+
+## Android playback stability build — 1.1.2
+
+APK: `../AV-Player-1.1.2.apk`, versionCode 4, same development signing certificate for updates. Uses Expo Video / Android Media3 (ExoPlayer) by default to avoid entering the LibVLC playback path that was reported to close the app. LibVLC remains an explicit compatibility option for uncommon formats. Native player status/errors are forwarded to the UI and a JavaScript error boundary protects the playback screen. Native process crashes cannot be caught by a React error boundary.
+
+Play **Offline video check**, then **Audio → Offline MP3 check** before testing network streams or personal files. Actual resolution of the reported iQOO crash is not confirmed because no device or crash log was available. Default-engine format support is determined by Media3 and device codecs; broad LibVLC format support is not a guarantee for the default engine.
