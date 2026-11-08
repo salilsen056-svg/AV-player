@@ -6,7 +6,7 @@ for your own machine.
 
 Install JavaScript dependencies in `native` using `npm ci`.
 The committed Android project includes the neon launcher icon, minSdk 26,
-version 1.1.0 (code 2), and ARM64/ARMv7 ABI filters.
+version 1.1.1 (code 3), and ARM64/ARMv7 ABI filters.
 Do not regenerate it with Expo prebuild unless you preserve those native changes.
 
 The test build uses the standard development signing configuration. Generate

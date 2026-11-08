@@ -64,3 +64,9 @@ Validation: 5 tests for matching resolutions/HDR/frame rates, handling malformed
 - `native/android/BUILDING.md`: reproducible APK build and local signing setup.
 
 Dependencies, generated build files, local signing keys, and APK binaries are excluded from Git. Downloadable APKs should be distributed as GitHub Release assets rather than committed to source.
+
+## Android playback fix — version 1.1.1
+
+Fixes a confirmed LibVLC bridge bug: local `file://` URIs were passed to the raw-filesystem-path constructor. URI sources now use the URI constructor, while bare paths retain the path constructor. This also fixes loading temporary local HLS manifests. The patch runs automatically after dependency installation and forwards native setup exceptions to the player UI.
+
+Adds offline video and MP3 checks, playback status, a 20-second startup error, Retry, and a software/hardware decoder toggle. Use the offline checks to separate device decoder problems from network or source-file problems. Signature and build checks do not substitute for an on-device test.
